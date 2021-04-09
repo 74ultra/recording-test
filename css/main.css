@@ -1,0 +1,45 @@
+.rec-ctn {
+  position: fixed;
+  background-color: darkgray;
+  color: darkred;
+  width: 150px;
+  height: 40px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.header-ctn {
+  display: flex;
+  justify-content: center;
+}
+
+.video-ctn {
+  display: flex;
+  justify-content: center;
+}
+
+video {
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  width: 500px;
+  background-color: lightgray;
+  margin: 0 50px;
+}
+
+.btn-ctn {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+button {
+  margin: 0 10px;
+  width: 120px;
+  height: 40px;
+  color: white;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 5px;
+}

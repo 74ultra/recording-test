@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Recording</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class='rec-ctn'>
+        <h4>Recording</h4>
+    </div>
+    <div class='header-ctn'>
+        <h1>Screen Recording</h1>
+    </div>
+
+    <div class='video-ctn'>
+        <video id='live' autoplay playsinline></video>
+        <video id='reced' autoplay playsinline></video>
+    </div>
+    <div class='btn-ctn'>
+        <button id='start-record'>Start recording</button>
+        <button id='stop-record'>Stop recording</button>
+        <button id="playback">Playback</button>
+        <button id='dwnload'>Download</button>
+    </div>
+
+
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="js/main.js" async></script>
+</body>
+
+</html>
